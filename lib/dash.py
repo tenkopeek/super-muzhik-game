@@ -15,7 +15,7 @@ class Dashboard(Font):
         self.time = 0
 
     def update(self):
-        self.drawText("KA4OK", 50, 20, 15)
+        self.drawText("MUZHIK", 50, 20, 15)
         self.drawText(self.pointString(), 50, 37, 15)
 
         self.drawText("@x{}".format(self.coinString()), 225, 37, 15)
